@@ -8,7 +8,7 @@
 # @Description:  
 #########################################################################
 
-KRC_LOC="https://raw.githubusercontent.com/kehr/krc/master/vimrc"
+KRC_LOC="https://raw.githubusercontent.com/zycbobby/krc/master/vimrc"
 VUNDLE_JUMBO_OLD=$HOME"/.jumbo/share/vim/vimfiles/autoload"
 is_git_installed=`which git`
 
