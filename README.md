@@ -82,7 +82,7 @@ curl -L https://raw.githubusercontent.com/zycbobby/krc/master/install.sh | sh
 Copy this snip ot your bashrc file or zshrc file: 
 
 ```bash
-export MYVIMRC=$HOME/.krc
+export MYVIMRC=$HOME/.vimrc
 export VIMINIT="let &rtp='$HOME/.vim/bundle,' . &rtp
 so $MYVIMRC"
 alias updatekrc='curl -L https://raw.githubusercontent.com/zycbobby/krc/master/vimrc > ~/.vimrc'
