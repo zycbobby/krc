@@ -46,7 +46,7 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 echo "get vundle success!\n"
 
 echo "install krc ..."
-curl -L $KRC_LOC > $HOME/.krc 
+curl -L $KRC_LOC > $HOME/.vimrc 
 
 echo "I will start a vim window to install plugin，ingore any warning except install plugin failed."
 sleep 3
