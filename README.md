@@ -85,6 +85,6 @@ Copy this snip ot your bashrc file or zshrc file:
 export MYVIMRC=$HOME/.krc
 export VIMINIT="let &rtp='$HOME/.vim/bundle,' . &rtp
 so $MYVIMRC"
-alias updatekrc='curl -L https://raw.githubusercontent.com/zycbobby/krc/master/vimrc > ~/.krc'
+alias updatekrc='curl -L https://raw.githubusercontent.com/zycbobby/krc/master/vimrc > ~/.vimrc'
 ```
 finished ! 
